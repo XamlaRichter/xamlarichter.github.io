@@ -222,12 +222,12 @@ body {}
 				.section-wrapper h1 {
 					font-weight: bold;
 					font-size: 42px;
-					padding-bottom: 30px;
+					padding-bottom: 20px;
 				}
 				
 				.section-wrapper h2 {
 					font-weight: bold;
-					padding-bottom: 24px;
+					padding-bottom: 25px;
 				}
 				
 					section.purple > .section-wrapper h1,
