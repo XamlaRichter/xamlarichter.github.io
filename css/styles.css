@@ -336,6 +336,10 @@ body {}
 					div.post-header > h1 {
 						padding-bottom: 20px;
 					}
+					
+					div.post-header > h1.blog {
+						font-size: 24px;
+					}
 						
 				article.post-content {
 					border-top: 1px solid rgb(220,220,220);
