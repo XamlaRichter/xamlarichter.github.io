@@ -301,6 +301,21 @@ body {}
 					ul.post-list > li {
 						list-style-type: none;
 					}
+						
+						ul.post-list > li h2 {
+						    padding-bottom: 15px;
+						}
+						
+							ul.post-list > li h2 > a {
+								color: rgb(89,101,145);
+								font-size: 26px;
+							    font-weight: bold;
+							    text-decoration: none;
+							}
+							
+								ul.post-list > li h2 > a:hover {
+								    text-decoration: underline;
+								}
 					
 					p.post-meta {
 						color: rgb(89,101,145);
