@@ -296,6 +296,12 @@ body {}
 							text-align: right;
 						}
 						
+				ul.post-list {}
+				
+					ul.post-list > li {
+						list-style-type: none;
+					}
+				
 				div.post-header {}
 						
 				article.post-content {
