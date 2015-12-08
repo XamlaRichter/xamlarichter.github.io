@@ -337,7 +337,7 @@ body {}
 						padding-bottom: 20px;
 					}
 					
-					div.post-header > h1.blog {
+					div.post-header.blog > h1 {
 						font-size: 24px;
 					}
 						
