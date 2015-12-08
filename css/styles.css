@@ -318,13 +318,14 @@ body {}
 								}
 					
 					p.post-meta {
-						color: rgb(89,101,145);
+						color: rgb(160,160,160);
 						font-size: 20px;
 						font-weight: bold;
+						padding-bottom: 30px;
 					}
 					
 					p.meta {
-						color: rgb(89,101,145);
+						color: rgb(160,160,160);
 						font-size: 20px;
 					    font-weight: bold;
 					    padding-bottom: 30px;
