@@ -4,24 +4,12 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Xamla Blog & Resources</h1>
+  <h1 class="page-heading">Xamla Blog</h1>
 
   <ul class="post-list">
   	
-  	<li>
-  		<h2>
-          <a class="post-link" href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a>
-        </h2>
-  	</li>
-  	
-  	<li>
-  		<h2>
-          <a class="post-link" href="{{ "/reviews/" | prepend: site.baseurl }}">Reviews</a>
-        </h2>
-  	</li>
-  	
     {% for post in site.posts %}
-      {% if 'main page' == post.group %}
+      {% if 'blog post' == post.group %}
       <li>
         <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
         <h2>
