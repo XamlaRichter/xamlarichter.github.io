@@ -301,6 +301,12 @@ body {}
 					ul.post-list > li {
 						list-style-type: none;
 					}
+					
+					p.post-meta {
+						color: rgb(89,101,145);
+						font-size: 18px;
+						font-weight: bold;
+					}	
 				
 				div.post-header {}
 						
