@@ -304,11 +304,22 @@ body {}
 					
 					p.post-meta {
 						color: rgb(89,101,145);
-						font-size: 18px;
+						font-size: 20px;
 						font-weight: bold;
+					}
+					
+					p.meta {
+						color: rgb(89,101,145);
+						font-size: 20px;
+					    font-weight: bold;
+					    padding-bottom: 30px;
 					}	
 				
 				div.post-header {}
+				
+					div.post-header > h1 {
+						padding-bottom: 20px;
+					}
 						
 				article.post-content {
 					border-top: 1px solid rgb(220,220,220);
