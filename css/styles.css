@@ -295,6 +295,23 @@ body {}
 						.section-image.right {
 							text-align: right;
 						}
+						
+				div.post-header {}
+						
+				article.post-content {
+					border-top: 1px solid rgb(220,220,220);
+				}
+				
+					article.post-content:first-of-type {
+						border-top: none;
+					}
+				
+					article.post-content > h4 {
+						padding-top: 20px;
+						padding-bottom: 12px;
+						color: rgb(89,101,145);
+						font-size: 16px;
+					}
 														
 				article.blog-post {
 					border-top: 1px solid rgb(220,220,220);
