@@ -344,11 +344,14 @@ body {}
 					article.post-content:first-of-type {
 						border-top: none;
 					}
+					
+					article.post-content > ul {
+						margin-left: 20px;
+					}
 				
 					article.post-content > h4 {
 						padding-top: 20px;
 						padding-bottom: 12px;
-						
 					}
 					
 						article.post-content > h4 > a {
